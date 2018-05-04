@@ -1,14 +1,6 @@
 ##
 # Examples of simple zero-knowledge proofs implemented in Python
 #
-# More specifically, these are non-interactive, zero-knowledge,
-# proofs of knowledge. They can be analyzed and proven secure
-# in the random oracle model (the random oracle here is instantiated
-# with the SHA2 hash function).
-#
-# Lecture notes:
-#   http://soc1024.web.engr.illinois.edu/teaching/ece598am/fall2016/zkproofs.pdf
-
 
 import sys
 sys.path += ['elliptic-curves-finite-fields']
